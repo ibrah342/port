@@ -31,6 +31,10 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
+.small-image {
+	width: 300px;  /* Set the desired width */
+	height: auto;  /* Maintain aspect ratio */
+}
 
 ol, ul {
 	list-style: none;
@@ -3905,5 +3909,6 @@ input, select, textarea {
 			#intro {
 				background-attachment: scroll;
 			}
+	
 
 		}
